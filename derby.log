@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Sun Oct 30 13:22:56 SGT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0158-140a-6746-000005b27e00 
+on database directory /Users/BAOJUN/NetBeansProjects/coolshot/coolshot-db with class loader sun.misc.Launcher$AppClassLoader@12a3a380 
+Loaded from file:/Users/BAOJUN/db-derby-10.10.1.1-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_60-b27
+user.dir=/Users/BAOJUN/NetBeansProjects/coolshot
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.5
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 30 13:23:13 SGT 2016:
+Shutting down instance a816c00e-0158-140a-6746-000005b27e00 on database directory /Users/BAOJUN/NetBeansProjects/coolshot/coolshot-db with class loader sun.misc.Launcher$AppClassLoader@12a3a380 
