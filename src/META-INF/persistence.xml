@@ -1,0 +1,22 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="1.0">
+    <persistence-unit name="CoolShotPU">
+        <provider>
+            org.apache.openjpa.persistence.PersistenceProviderImpl
+        </provider>
+        <class>coolshot.Movie</class>
+        <class>coolshot.Review</class>
+        <properties>
+            <!-- embedded DB. The coolshot-db is created automatically. -->
+            <property name="openjpa.ConnectionURL"
+                      value="jdbc:derby:coolshot-db;create=true"/>
+            <property name="openjpa.ConnectionDriverName"
+                      value="org.apache.derby.jdbc.EmbeddedDriver"/>
+            <property name="openjpa.ConnectionUserName"
+                      value=""/>
+            <property name="openjpa.ConnectionPassword"
+                      value=""/>
+        </properties>
+    </persistence-unit>
+</persistence>
